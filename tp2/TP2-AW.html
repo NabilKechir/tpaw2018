@@ -1,0 +1,46 @@
+<head>
+
+   <script type="text/javascript" src="error.js"></script>
+    <title> formulaire </title>
+	<link href="style.css" rel="stylesheet">
+	<link href="formv.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+</head>
+
+<body>
+<h1>Saisie d'une fiche personne</h1>
+<table>
+	<tr>
+		<td>Nom</td>
+   <td> <input type="text" name="nom" id="nom" minlength="5" maxlength="20"/></td>  <br> 
+    </tr>
+	<tr>
+		<td>prenom</td>
+   <td> <input type="text" name="prenom" id="prenom" minlength="5" maxlength="20"/></td>  <br> 
+    </tr>
+	<tr>
+		<td>date</td>
+   <td> <input type="text" name="date" id="date" placeholder="JJ/MM/AAAA"/></td>  <br> 
+ 
+    </tr>
+	<tr>
+		<td>Adresse Postale</td>
+   <td> <input type="text" name="adresse" id="adresse" minlength="5" maxlength="50"/></td>  <br> 
+    </tr>
+	<tr>
+		<td>email</td>
+   <td> <input type="text" name="email" id="email" minlength="5" maxlength="30"/></td>  <br> 
+    </tr>
+	
+	
+	 
+	 </table>
+	 <tr>
+	<input type="button" value="Valider" onclick="error()"/>
+	 </tr><br>
+	 <div id="error" hidden></div>
+	 <div id="resultat" hidden></div>
+	 </body>
+</html>

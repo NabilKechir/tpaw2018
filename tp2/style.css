@@ -1,0 +1,14 @@
+body{
+	background: gray;
+	
+}
+table{
+	width:200px;
+	
+	background: white;
+}
+div{
+	background:pink;
+	padding:5px;
+	border:1px,black;
+}
